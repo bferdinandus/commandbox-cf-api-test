@@ -4,8 +4,11 @@
         "restMappings":"/api/*"
     },
     "cfconfigfile":"cfconfig.json",
-    "web": {
-        "HTTP": {
+    "JVM":{
+        "javaVersion":"openjdk11_jre_x64_windows_hotspot_jdk-11.0.14.1+1"
+    },
+    "web":{
+        "HTTP":{
             "port":"62155"
         }
     }
