@@ -1,0 +1,12 @@
+{
+    "app":{
+        "cfengine":"adobe@2018",
+        "restMappings":"/api/*"
+    },
+    "cfconfigfile":"cfconfig.json",
+    "web": {
+        "HTTP": {
+            "port":"62155"
+        }
+    }
+}
